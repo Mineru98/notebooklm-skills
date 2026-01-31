@@ -1,0 +1,21 @@
+{
+  "name": "notebooklm-researcher",
+  "version": "1.0.0",
+  "description": "NotebookLM research automation plugin - orchestrates deep research, source discovery, and presentation slide creation using the nlm CLI tool",
+  "author": {
+    "name": "Mineru",
+    "email": "mineru@usefullabs.co.kr",
+    "url": "https://github.com/Mineru98"
+  },
+  "homepage": "https://github.com/Mineru98/notebooklm-skills#readme",
+  "repository": "https://github.com/Mineru98/notebooklm-skills",
+  "license": "MIT",
+  "keywords": [
+    "notebooklm",
+    "research",
+    "slides",
+    "automation",
+    "nlm-cli",
+    "presentation"
+  ]
+}
