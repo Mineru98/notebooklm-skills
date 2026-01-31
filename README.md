@@ -41,7 +41,7 @@ NotebookLM 리서치 자동화 플러그인 - `nlm` CLI를 활용한 리서치�
 ### 사전 요구사항
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI 설치
-- [nlm CLI](https://github.com/Mineru98/notebooklm-cli) 설치
+- [nlm CLI](https://github.com/jacob-bd/notebooklm-mcp-cli) 설치
 - NotebookLM 인증 완료 (`nlm login --profile work`)
 
 ## Usage
