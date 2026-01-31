@@ -11,16 +11,38 @@ NotebookLM 리서치 자동화 플러그인 - `nlm` CLI를 활용한 리서치�
 3. **딥 리서치** - 웹 소스 자동 탐색 및 수집 (최대 40개 소스)
 4. **슬라이드 생성** - 수집된 소스 기반 발표 자료 자동 생성
 
-## Prerequisites
-
-- [nlm CLI](https://github.com/Mineru98/notebooklm-cli) 설치
-- NotebookLM 인증 완료 (`nlm login --profile work`)
-
 ## Installation
 
+### Claude Code 마켓플레이스에서 설치 (권장)
+
 ```bash
-nlm skill install https://github.com/Mineru98/notebooklm-skills
+# 마켓플레이스에서 플러그인 추가
+/plugin marketplace add Mineru98/notebooklm-skills
+
+# 플러그인 설치
+/plugin install notebooklm-skills
 ```
+
+### 수동 설치
+
+프로젝트 루트의 `.claude/plugins.json`에 직접 추가할 수도 있습니다:
+
+```json
+{
+  "plugins": [
+    {
+      "name": "notebooklm-researcher",
+      "source": "github:Mineru98/notebooklm-skills"
+    }
+  ]
+}
+```
+
+### 사전 요구사항
+
+- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI 설치
+- [nlm CLI](https://github.com/Mineru98/notebooklm-cli) 설치
+- NotebookLM 인증 완료 (`nlm login --profile work`)
 
 ## Usage
 
